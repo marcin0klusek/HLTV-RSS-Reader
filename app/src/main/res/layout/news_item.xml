@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customborder">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ikonaEventu"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="2sp"
+                android:layout_marginLeft="10sp"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/tytul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3sp"
+                android:layout_marginRight="5sp"
+                android:text="ZEUS: WE WITHSTOOD THE ATTACK [FOR S1MPLE AND FLAMIE]. IF WE APPROACH THIS THE RIGHT WAY, IT SHOULD MAKE US STRONGER"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="26px"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/zdjecieNewsa"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:layout_below="@id/linearLayoutTop"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2sp"
+            android:background="@drawable/customborder"/>
+        <TextView
+            android:id="@+id/opis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/zdjecieNewsa"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:textSize="18px"
+            android:textAlignment="center"
+            android:text="The full roster of teams for the Bets.net Masters is now known after GODSENT took the last spot from the Challenger Series and North received the last invite." />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
